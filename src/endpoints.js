@@ -74,7 +74,7 @@ server.get('/tabuada', (req, resp) => {
         const x = tabuada(a); 
 
         resp.send({
-            tabuada: x
+            r: x
         })
     }
 
